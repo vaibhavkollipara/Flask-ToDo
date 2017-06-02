@@ -1,0 +1,47 @@
+.App{
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px gray,-1px -1px 5px gray;
+    margin: 20px;
+
+}
+
+.App >.title {
+    border : 1px solid black;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background-color:#60adc9;
+    padding:20px;
+}
+
+.TaskItem{
+    border : 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin:25px;
+    background-color: white;
+}
+
+.TaskItem > .title{
+    font-size: 2em;
+    background-color: #60adc9;
+    border-radius : 5px;
+    padding:5px;
+}
+
+.TaskItem:hover{
+    box-shadow: 1px 1px 5px gray,-1px -1px 5px gray;
+}
+
+.Done > .title, .Done > p{
+  opacity : 0.5;
+}
+
+.Done > .title{
+    text-decoration: line-through;
+}
+
+
+.formitem{
+    margin: 5px;
+}
