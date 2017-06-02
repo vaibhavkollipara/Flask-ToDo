@@ -29,3 +29,6 @@ The frontend should be built using React.JS. You should not use Redux or any oth
 -	The top of the page should have a form that allows users to create a new task with title and description.
 -	Tasks that have not been completed should show the title and description and a button that allows users to mark them as done.
 -	Tasks that have been completed should have a title that is crossed out and a button that allows the user to mark them as to-do.
+
+### Screenshot :
+<img src="https://github.com/vaibhavkollipara/Flask-ToDo/blob/master/screenshot.png?raw=true" />
